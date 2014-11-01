@@ -106,6 +106,16 @@ section small { color:#aaa; }
 }
 
 .spot-cover { display:none; }
+.spot-emergency-01 { display:none; }
+.spot-emergency-01.active { background:url(../img/marker-temp.png); }
+.spot-emergency-02 { display:none; }
+.spot-emergency-02.active { background:url(../img/marker-temp.png); }
+.spot-emergency-03 { display:none; }
+.spot-emergency-03.active { background:url(../img/marker-temp.png); }
+.spot-emergency-04 { display:none; }
+.spot-emergency-04.active { background:url(../img/marker-temp.png); }
+.spot-emergency-05 { display:none; }
+.spot-emergency-05.active { background:url(../img/marker-temp.png); }
 .spot-icrc-emergency-guiuan { display:none; }
 .spot-icrc-emergency-guiuan.active { background:url(../img/marker-temp.png); }
 .spot-icrc-emergency-homohon { display:none; }

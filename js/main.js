@@ -1,6 +1,6 @@
 var windowHeight = $(window).height();
 var width = $(window).width(); 
-var map = false;
+var mapCreated = false;
 
 $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
     event.preventDefault();
@@ -10,7 +10,7 @@ $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
 $(window).resize(function(){     
     windowHeight = $(window).height();
     var newWidth = $(window).width();
-    if(newWidth >= 768 && map === false){
+    if(newWidth >= 768 && mapCreated === false){
       fullSetup();
     }
 });
@@ -28,15 +28,15 @@ function fullSetup(){
 
 width = $(window).width(); 
 if(width >= 768){
-      map = true;
+      mapCreated = true;
 
       
-      $(".quickNav").html('<div class="btn-group">'+
+      $(".quickNav").html('<div class="btn-group hidden-xs">'+
           '<button type="button" class="btn btn-xs dropdown-toggle btn-quickNav" data-toggle="dropdown">'+ 
             '<span style="font-size:18px; color:#f5f5f5;"> ☰ </span></button>'+
             '<ul class="dropdown-menu" role="menu">'+
               '<li><a href="#">Home</a></li>'+
-              '<li><a href="#icrc-emergency-guiuan"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Emergency phase</a></li>'+
+              '<li><a href="#emergency-01"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Emergency phase</a></li>'+
               '<li><a href="#icrc-recovery-guiuan"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Recovery phase</a></li>'+
               '<li><a href="#livelihoods">Livelihood Profiles</a></li>'+
               '<li><a href="#liporada"><span class="glyphicon glyphicon-user color-blue"></span>&nbsp; Maria Liporada</a></li>'+
@@ -56,6 +56,91 @@ if(width >= 768){
 
       // geojson points for each story piece
       var storyPoints = [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "emergency-01",
+          "place_name": "isabel leyte",
+          "view_bounds": [
+          [10.6947680272049, 124.237861633301], [11.2305364118092, 124.634742736816] 
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          124.43939208984375,
+          10.927371109008824
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "emergency-02",
+          "place_name": "palo leyte",
+          "view_bounds": [
+          [10.9188527937218, 124.795589447022], [11.4546211783261, 125.192470550537]  
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          124.99711990356445,
+          11.151455875525723
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "emergency-03",
+          "place_name": "carles iloilo",
+          "view_bounds": [
+          [11.3215999635837, 122.928943634034], [11.857368348188, 123.325824737549]  
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          123.13047409057616,
+          11.554203045387684
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "emergency-04",
+          "place_name": "brgy 25 tacloban",
+          "view_bounds": [
+          [11.0122478540281, 124.807026386261], [11.5480162386324, 125.203907489776] 
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          125.00855684280397,
+          11.244850935832064
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "emergency-05",
+          "place_name": "burauen leyte",
+          "view_bounds": [
+          [10.7500468952595, 124.687957763672], [11.2858152798638, 125.084838867187]  
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          124.88948822021484,
+          10.982649977063492
+          ]
+        }
+      },
       {
           "type": "Feature",
           "properties": {
@@ -569,12 +654,14 @@ if(width >= 768){
       // Set map to first section.
       setActive(0, false);
 
-      // show disclaimer text on click of dislcaimer link
-      function showDisclaimer() {
-          window.alert("The maps used do not imply the expression of any opinion on the part of the International Federation of Red Cross and Red Crescent Societies or National Societies concerning the legal status of a territory or of its authorities.");
-      }
+      
 
 }
 }
+
+// show disclaimer text on click of dislcaimer link
+      function showDisclaimer() {
+          window.alert("The maps used do not imply the expression of any opinion on the part of the International Federation of Red Cross and Red Crescent Societies or National Societies concerning the legal status of a territory or of its authorities.");
+      }
 
 fullSetup();
