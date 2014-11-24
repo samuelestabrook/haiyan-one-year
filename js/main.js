@@ -56,216 +56,32 @@ if(width >= 768){
 
       // geojson points for each story piece
       var storyPoints = [
-      {
-        "type": "FeatureCollection",
-        "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-        "features": [
-        {
-        "type": "Feature",
-        "properties": {
-          "id": "martine",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "soccer",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "canaan",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.738998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "hope",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "father",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "soil",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "junior",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "dominique",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "mirebalais",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "landy",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "haitian",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "ifrc",
-          "place_name": "port-au-prince haiti",
-          "view_bounds": [
-          [17.696833, -74.355351], [20.149248, -71.773564]  
-          ]
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-          -72.330206,
-          18.538998
-          ]
-        }
-      }
-      ]}
-        ];
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "martine" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "soccer" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "canaan" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "hope" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "father" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "soil" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "junior" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "dominique" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "mirebalais" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "landy" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "haitian" } },
+      { "geometry": { "type": "Point", "coordinates": [-72.330206, 18.538998] },
+      "properties": { "id": "ifrc" } }
+      ];
+      
       // define tile layer for base map
       var tileLayerUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
       // var tileLayerUrl = 'http://{s}.tiles.mapbox.com/v3/americanredcross.hcji22de/{z}/{x}/{y}.png';
@@ -336,23 +152,23 @@ if(width >= 768){
           document.body.className = 'section-' + index;
 
           // Ease map to active marker.
-          if (ease && previousActive !== index && markerMap[activeSpotId] !== undefined) {
-            var storyWidth = $(window).width() * 0.6;
-           var padding = L.point(storyWidth, 0)
-            map.fitBounds(markerMap[activeSpotId].feature.properties.view_bounds, {
-              paddingTopLeft: padding,
-              // zoom: {
-              //   animate: true,
-              //   duration: 6
-              // },
-              pan: {
-                animate: true,
-                duration: 2.5
-              }
-            });
-
-            previousActive = index;
-          } 
+//          if (ease && previousActive !== index && markerMap[activeSpotId] !== undefined) {
+//            var storyWidth = $(window).width() * 0.6;
+//           var padding = L.point(storyWidth, 0)
+//            map.fitBounds(markerMap[activeSpotId].feature.properties.view_bounds, {
+//              paddingTopLeft: padding,
+//              // zoom: {
+//              //   animate: true,
+//              //   duration: 6
+//              // },
+//              pan: {
+//                animate: true,
+//                duration: 2.5
+//              }
+//            });
+//
+//            previousActive = index;
+//          } 
           return true;
       };
 
