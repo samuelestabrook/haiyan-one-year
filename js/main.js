@@ -59,8 +59,8 @@ if(width >= 768){
       {
         "type": "Feature",
         "properties": {
-          "id": "emergency-01",
-          "place_name": "isabel leyte",
+          "id": "martine",
+          "place_name": "port-au-prince haiti",
           "view_bounds": [
           [10.6947680272049, 124.237861633301], [11.2305364118092, 124.634742736816] 
           ]
@@ -68,8 +68,8 @@ if(width >= 768){
         "geometry": {
           "type": "Point",
           "coordinates": [
-          124.43939208984375,
-          10.927371109008824
+          18.538998,
+          -72.330206
           ]
         }
       },
