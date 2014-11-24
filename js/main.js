@@ -169,8 +169,8 @@ if(width >= 768){
 //
 //            previousActive = index;
 //          } 
-          return true;
-      };
+//          return true;
+//      };
 
       // Bind to scroll events to find the active section.
       window.onscroll = _(function() {
