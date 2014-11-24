@@ -60,7 +60,7 @@ if(width >= 768){
         "type": "Feature",
         "properties": {
           "id": "martine",
-          "place_name": "port-au-prince haiti"
+          "place_name": "port-au-prince haiti",
           "view_bounds": [
           [17.696833, -74.355351], [20.149248, -71.773564]  
           ]
