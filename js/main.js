@@ -533,8 +533,8 @@ if(width >= 768){
         }
         ];
       // define tile layer for base map
-      // var tileLayerUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
-      var tileLayerUrl = 'http://{s}.tiles.mapbox.com/v3/americanredcross.hcji22de/{z}/{x}/{y}.png';
+      var tileLayerUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
+      // var tileLayerUrl = 'http://{s}.tiles.mapbox.com/v3/americanredcross.hcji22de/{z}/{x}/{y}.png';
       var tileLayer = L.tileLayer(tileLayerUrl);
 
       // setup leaflet map with desired options
@@ -553,7 +553,7 @@ if(width >= 768){
           // zoom: 6,
           // center: [11, 125.7],     
           layers: [tileLayer]
-      }).fitBounds([[7.667441482726068, 118.564453125], [18.375379094031814, 127.06787109374999]], {
+      }).fitBounds([[17.696833, -74.355351], [20.149248, -71.773564]], {
         paddingTopLeft: padding
       });
 
