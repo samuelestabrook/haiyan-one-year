@@ -336,23 +336,23 @@ if(width >= 768){
           document.body.className = 'section-' + index;
 
           // Ease map to active marker.
-//          if (ease && previousActive !== index && markerMap[activeSpotId] !== undefined) {
-//            var storyWidth = $(window).width() * 0.6;
-//           var padding = L.point(storyWidth, 0)
-//            map.fitBounds(markerMap[activeSpotId].feature.properties.view_bounds, {
-//              paddingTopLeft: padding,
+          if (ease && previousActive !== index && markerMap[activeSpotId] !== undefined) {
+            var storyWidth = $(window).width() * 0.6;
+           var padding = L.point(storyWidth, 0)
+            map.fitBounds(markerMap[activeSpotId].feature.properties.view_bounds, {
+              paddingTopLeft: padding,
               // zoom: {
               //   animate: true,
               //   duration: 6
               // },
-//              pan: {
-//                animate: true,
-//                duration: 2.5
-//              }
-//            });
-//
-//            previousActive = index;
-//          } 
+              pan: {
+                animate: true,
+                duration: 2.5
+              }
+            });
+
+            previousActive = index;
+          } 
           return true;
       };
 
