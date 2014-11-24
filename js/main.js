@@ -264,6 +264,7 @@ if(width >= 768){
           ]
         }
       }
+      ]}
         ];
       // define tile layer for base map
       var tileLayerUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
