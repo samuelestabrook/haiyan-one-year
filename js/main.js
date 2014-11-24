@@ -36,18 +36,18 @@ if(width >= 768){
             '<span style="font-size:18px; color:#f5f5f5;"> ☰ </span></button>'+
             '<ul class="dropdown-menu" role="menu">'+
               '<li><a href="#">Home</a></li>'+
-              '<li><a href="#emergency-01"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Emergency phase</a></li>'+
-              '<li><a href="#icrc-recovery-guiuan"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Recovery phase</a></li>'+
-              '<li><a href="#livelihoods">Livelihood Profiles</a></li>'+
-              '<li><a href="#liporada"><span class="glyphicon glyphicon-user color-blue"></span>&nbsp; Maria Liporada</a></li>'+
-              '<li><a href="#martinez"><span class="glyphicon glyphicon-user color-blue"></span>&nbsp; Gaspar Martinez</a></li>'+
-              '<li><a href="#cabujoc"><span class="glyphicon glyphicon-user color-blue"></span>&nbsp; Joel Cabujoc</a></li>'+
-              '<li><a href="#coconutlady"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Coconut Lady</a></li>'+
-              '<li><a href="#sheltergallery1"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; To build a home</a></li>'+
-              '<li><a href="#films"><span class="glyphicon glyphicon-film color-khaki"></span>&nbsp; Films</a></li>'+
-              '<li><a href="#palawangallery"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Reaching out</a></li>'+
-              '<li><a href="#manila"><span class="glyphicon glyphicon-info-sign color-red"></span>&nbsp; Philippine Red Cross</a></li>'+
-              '<li><a href="#movement"><span class="glyphicon glyphicon-info-sign color-red"></span>&nbsp; International Red Cross and Red Crescent Movement</a></li></ul></div>');
+              '<li><a href="#martine"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Martine</a></li>'+
+              '<li><a href="#soccer"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Soccer</a></li>'+
+              '<li><a href="#canaan"><span class="glyphicon glyphicon-user color-blue"></span>&nbsp; Canaan</a></li>'+
+              '<li><a href="#hope"><span class="glyphicon glyphicon-user color-blue"></span>&nbsp; HOPE clinics</a></li>'+
+              '<li><a href="#father"><span class="glyphicon glyphicon-user color-blue"></span>&nbsp; Father & daughter</a></li>'+
+              '<li><a href="#soil"><span class="glyphicon glyphicon-user color-blue"></span>&nbsp; SOIL</a></li>'+
+              '<li><a href="#junior"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Junior</a></li>'+
+              '<li><a href="#dominique"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Dominique</a></li>'+
+              '<li><a href="#mirebalais"><span class="glyphicon glyphicon-film color-khaki"></span>&nbsp; Mirebalais Hospital</a></li>'+
+              '<li><a href="#landy"><span class="glyphicon glyphicon-picture color-green"></span>&nbsp; Landy</a></li>'+
+              '<li><a href="#haitian"><span class="glyphicon glyphicon-info-sign color-red"></span>&nbsp; Haitian Red Cross</a></li>'+
+              '<li><a href="#ifrc"><span class="glyphicon glyphicon-info-sign color-red"></span>&nbsp; IFRC</a></li></ul></div>');
       $(".quickNav").tooltip(); 
  
 
@@ -76,461 +76,190 @@ if(width >= 768){
       {
         "type": "Feature",
         "properties": {
-          "id": "emergency-02",
-          "place_name": "palo leyte",
+          "id": "soccer",
+          "place_name": "port-au-prince haiti",
           "view_bounds": [
-          [10.9188527937218, 124.795589447022], [11.4546211783261, 125.192470550537]  
+          [17.696833, -74.355351], [20.149248, -71.773564]  
           ]
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-          124.99711990356445,
-          11.151455875525723
+          -72.330206,
+          18.538998
           ]
         }
       },
       {
         "type": "Feature",
         "properties": {
-          "id": "emergency-03",
-          "place_name": "carles iloilo",
+          "id": "canaan",
+          "place_name": "port-au-prince haiti",
           "view_bounds": [
-          [11.3215999635837, 122.928943634034], [11.857368348188, 123.325824737549]  
+          [17.696833, -74.355351], [20.149248, -71.773564]  
           ]
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-          123.13047409057616,
-          11.554203045387684
+          -72.330206,
+          18.738998
           ]
         }
       },
       {
         "type": "Feature",
         "properties": {
-          "id": "emergency-04",
-          "place_name": "brgy 25 tacloban",
+          "id": "hope",
+          "place_name": "port-au-prince haiti",
           "view_bounds": [
-          [11.0122478540281, 124.807026386261], [11.5480162386324, 125.203907489776] 
+          [17.696833, -74.355351], [20.149248, -71.773564]  
           ]
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-          125.00855684280397,
-          11.244850935832064
+          -72.330206,
+          18.538998
           ]
         }
       },
       {
         "type": "Feature",
         "properties": {
-          "id": "emergency-05",
-          "place_name": "burauen leyte",
+          "id": "father",
+          "place_name": "port-au-prince haiti",
           "view_bounds": [
-          [10.7500468952595, 124.687957763672], [11.2858152798638, 125.084838867187]  
+          [17.696833, -74.355351], [20.149248, -71.773564]  
           ]
         },
         "geometry": {
           "type": "Point",
           "coordinates": [
-          124.88948822021484,
-          10.982649977063492
+          -72.330206,
+          18.538998
           ]
         }
       },
       {
-          "type": "Feature",
-          "properties": {
-            "id": "cover",
-            "place_name": "PHL",
-            "view_bounds": [
-            [7.667441482726068, 118.564453125], 
-            [18.375379094031814, 127.06787109374999]  
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            124.8833,
-            10.9833
-            ]
-          }
+        "type": "Feature",
+        "properties": {
+          "id": "soil",
+          "place_name": "port-au-prince haiti",
+          "view_bounds": [
+          [17.696833, -74.355351], [20.149248, -71.773564]  
+          ]
         },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-emergency-guiuan",
-            "place_name": "guiuan",
-            "view_bounds": [
-              [10.8036305527031, 125.52978515625], [11.3393989373074, 125.926666259765]  
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.73131561279297,
-            11.036233634507
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-emergency-homohon",
-            "place_name": "homohon island",
-            "view_bounds": [
-              [10.528319677756, 125.510559082031], [11.0640880623603, 125.907440185546]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.72032928466795,
-            10.73786205512162
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-emergency-basey",
-            "place_name": "basey",
-            "view_bounds": [
-              [11.0679074298266, 124.881591796875], [11.6036758144309, 125.27847290039]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.06372451782227,
-            11.28599242692106
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-emergency-balangiga",
-            "place_name": "balangiga",
-            "view_bounds": [
-              [10.9142240069443, 125.194702148437], [11.4499923915486, 125.591583251952]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.38713455200195,
-            11.11023208709613
-            ]
-          }
-        },{
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-emergency-abuyog",
-            "place_name": "abuyog",
-            "view_bounds": [
-              [10.5688221516269, 124.854125976562], [11.1045905362312, 125.251007080077]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.00990867614746,
-            10.744945505898663
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-recovery-guiuan",
-            "place_name": "guiuan",
-            "view_bounds": [
-              [10.8036305527031, 125.52978515625], [11.3393989373074, 125.926666259765]  
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.73131561279297,
-            11.036233634507
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-recovery-salcedo",
-            "place_name": "salcedo",
-            "view_bounds": [
-              [10.9142240069443, 125.472106933593], [11.4499923915486, 125.868988037108]  
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.66024780273438,
-            11.155497934661474
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-recovery-homohon",
-            "place_name": "homohon island",
-            "view_bounds": [
-              [10.528319677756, 125.510559082031], [11.0640880623603, 125.907440185546]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.72032928466795,
-            10.73786205512162
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-recovery-random",
-            "place_name": "marabut",
-            "view_bounds": [
-              [11.1504453519578, 125.521545410156], [11.6862137365621, 125.918426513671]  
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.52154541015625,
-            11.150445351957863
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-recovery-marabut",
-            "place_name": "marabut",
-            "view_bounds": [
-              [10.9088301557221, 125.018920898437], [11.4445985403264, 125.415802001952]  
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.21598815917967,
-            11.117769865203444
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "icrc-recovery-basey",
-            "place_name": "basey",
-            "view_bounds": [
-              [11.0679074298266, 124.881591796875], [11.6036758144309, 125.27847290039]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.06372451782227,
-            11.28599242692106
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "livelihoods",
-            "place_name": "PHL",
-            "view_bounds": [
-            [7.667441482726068, 118.564453125], 
-            [18.375379094031814, 127.06787109374999]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            124.8833,
-            10.9833
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "liporada",
-            "place_name": "Anonang, Burauen, Leyte",
-            "view_bounds": [
-            [10.7928387592471, 124.722290039062], [11.3286071438514, 125.119171142577]  
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            124.8833,
-            10.9833
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "martinez",
-            "place_name": "Villa Corazon, Burauen, Leyte",
-            "view_bounds": [
-            [10.7145866909815, 124.576721191406], [11.2503550755858, 124.973602294921]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            124.78842258453368,
-            10.93659901550848
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "cabujoc",
-            "place_name": "Santol, San Miguel, Leyte",
-            "view_bounds": [
-            [11.081384602413, 124.626159667968], [11.6171529870173, 125.023040771483]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            124.82698202133177,
-            11.34642079068341
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "coconutlady",
-            "place_name": "Candahug, Palo, Leyte",
-            "view_bounds": [
-            [10.9142240069443, 124.810180664062], [11.4499923915486, 125.207061767577]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            125.01407146453856,
-            11.17861237947222
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "shelter",
-            "place_name": "",
-            "view_bounds": [
-            [7.667441482726068, 118.564453125], [18.375379094031814, 127.06787109374999]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              124.8833,
-              10.9833
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "sheltergallery1",
-            "place_name":"Tabontabon, Leyte",
-            "view_bounds": [
-            [10.8710704594996, 124.826660156249], [11.4068388441039, 125.223541259764]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            124.96398925781249,
-            11.049038346537106
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "palawangallery",
-            "place_name":"calamian islands",
-            "view_bounds": [
-            [11.8108996502773, 120.031127929687], [12.3466680348816, 120.428009033202]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            120.19935607910156,
-            12.013129123340724
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "films",
-            "place_name": "",
-            "view_bounds": [
-            [7.667441482726068, 118.564453125], [18.375379094031814, 127.06787109374999]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              124.8833,
-              10.9833
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "manila",
-            "view_bounds": [
-            [14.3894576807687, 120.750732421875], [14.925226065373, 121.14761352539]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            120.96999764442444,
-            14.59133954466318
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "id": "movement",
-            "view_bounds": [
-            [-37.71859032558814, 42.890625], [71.74643171904148, 158.90625]
-            ]
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-            122.6953125,
-            11.953349393643416
-            ]
-          }
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          -72.330206,
+          18.538998
+          ]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "junior",
+          "place_name": "port-au-prince haiti",
+          "view_bounds": [
+          [17.696833, -74.355351], [20.149248, -71.773564]  
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          -72.330206,
+          18.538998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "dominique",
+          "place_name": "port-au-prince haiti",
+          "view_bounds": [
+          [17.696833, -74.355351], [20.149248, -71.773564]  
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          -72.330206,
+          18.538998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "mirebalais",
+          "place_name": "port-au-prince haiti",
+          "view_bounds": [
+          [17.696833, -74.355351], [20.149248, -71.773564]  
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          -72.330206,
+          18.538998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "landy",
+          "place_name": "port-au-prince haiti",
+          "view_bounds": [
+          [17.696833, -74.355351], [20.149248, -71.773564]  
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          -72.330206,
+          18.538998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "haitian",
+          "place_name": "port-au-prince haiti",
+          "view_bounds": [
+          [17.696833, -74.355351], [20.149248, -71.773564]  
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          -72.330206,
+          18.538998
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "ifrc",
+          "place_name": "port-au-prince haiti",
+          "view_bounds": [
+          [17.696833, -74.355351], [20.149248, -71.773564]  
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+          -72.330206,
+          18.538998
+          ]
+        }
+      }
         ];
       // define tile layer for base map
       var tileLayerUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
