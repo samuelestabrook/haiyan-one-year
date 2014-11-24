@@ -57,6 +57,10 @@ if(width >= 768){
       // geojson points for each story piece
       var storyPoints = [
       {
+        "type": "FeatureCollection",
+        "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+        "features": [
+        {
         "type": "Feature",
         "properties": {
           "id": "martine",
